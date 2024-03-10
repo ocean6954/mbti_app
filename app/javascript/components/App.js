@@ -1,5 +1,11 @@
 import React from "react";
-import Main from "./Main";
+import { Routes, Route } from "react-router-dom"; // eslint-disable-line import/no-extraneous-dependencies
+import Editor from "./Editor";
+// import "../App.css";
 
-const App = () => <Main />;
+const App = () => (
+  <Routes>
+    <Route path="persons/*" element={<Editor />} />
+  </Routes>
+);
 export default App;

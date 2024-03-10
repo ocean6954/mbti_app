@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
-    root to: 'site#index'
+  root to: redirect('/persons')
 
-    namespace :api do
-      resources :persons, only: %i[index show create destroy update]
-    end
+  get 'persons', to: 'site#index'
+  get 'persons/new', to: 'site#index'
+  get 'persons/:id', to: 'site#index'
+  get 'persons/:id/edit', to: 'site#index'
+
+  namespace :api do
+    resources :persons, only: %i[index show create destroy update]
+  end
 end
