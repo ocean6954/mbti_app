@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   get 'persons/:id/edit', to: 'site#index'
 
   namespace :api do
-    resources :persons, only: %i[index show create destroy update]
+    resources :persons, only: %i[new index show create destroy update]
   end
 end

@@ -1,0 +1,19 @@
+ja:
+  enums:
+    mbti_type:
+      INTJ: "INTJ（建築家）"
+      INTP: "INTP（論理学者）"
+      ENTJ: "ENTJ（指揮官）"
+      ENTP: "ENTP（討論者）"
+      INFJ: "INFJ（提唱者）"
+      INFP: "INFP（仲介者）"
+      ENFJ: "ENFJ（主人公）"
+      ENFP: "ENFP（運動家）"
+      ISTJ: "ISTJ（管理者）"
+      ISFJ: "ISFJ（擁護者）"
+      ESFJ: "ESFJ（幹部）"
+      ESTJ: "ESTJ（領事）"
+      ISTP: "ISTP（巨匠）"
+      ISFP: "ISFP（冒険家）"
+      ESTP: "ESTP（起業家）"
+      ESFP: "ESFP（エンターテイナー）"

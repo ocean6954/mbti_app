@@ -22,7 +22,7 @@ Person.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      mbti_types: PropTypes.string.isRequired,
+      mbti_type: PropTypes.string.isRequired,
     }),
   ).isRequired,
 };

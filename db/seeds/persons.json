@@ -1,11 +1,16 @@
 [
   {
-    "mbti_types": 1,
+    "mbti_type": 6,
+    "name": "テスト",
+    "gender": 2
+  },
+  {
+    "mbti_type": 1,
     "name": "o.k",
     "gender": 0
   },
   {
-    "mbti_types": 3,
+    "mbti_type": 3,
     "name": "m",
     "gender": 1
   }
